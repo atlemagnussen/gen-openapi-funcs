@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "include": [
+        "api/**/*",
+        "common/**/*"
+    ],
+    "exclude": [
+        "client/*",
+        "node_modules/*"
+    ],
+    "compilerOptions": {
+        "target": "es2020",
+        "lib": ["es2021", "dom"],
+        "module": "es2020",
+        "moduleResolution": "node",
+
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "checkJs": false,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "inlineSources": true,
+        "jsx": "preserve",
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "outDir": "build/",
+        "paths": {
+            "@common/*": ["common/*"],
+            "@api": ["api"]
+        },
+        "removeComments": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "types": ["node"]
+    }
+}
