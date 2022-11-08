@@ -1,6 +1,6 @@
 
-const baseUrl = "https://localhost:7238/"
-
+// const baseUrl = "http://localhost:5168"
+const baseUrl = "https://localhost:7238"
 
 const jsonContentType = "application/json"
 
