@@ -1,0 +1,18 @@
+{
+  "name": "gen-openapi-funcs",
+  "version": "1.0.0",
+  "description": "gen openapi funcs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "openapi"
+  ],
+  "author": "atlemagnussen",
+  "license": "ISC",
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.23.0"
+  }
+}
