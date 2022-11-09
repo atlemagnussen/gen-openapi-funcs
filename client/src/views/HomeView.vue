@@ -17,7 +17,7 @@
     <article>
         <HelloWorld msg="gen" />
 
-        <button @click="get">GET</button>
+        <button role="button" @click="get">GET</button>
         <h2>Weathers</h2>
 
         <p v-for="(w) in weathers" :key="w.date">
